@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<RECIPES>
+    <RECIPE>
+        <FERMENTABLES>
+            <FERMENTABLE>
+                <NAME>UK Pale Ale Malt</NAME>
+                <VERSION>1</VERSION>
+                <YIELD>80.000000</YIELD>
+                <COLOR>3.000000</COLOR>
+                <AMOUNT>5.292810</AMOUNT>
+                <NOTES>In Mash/Steeped</NOTES>
+                <TYPE>Grain</TYPE>
+            </FERMENTABLE>
+            <FERMENTABLE>
+                <NAME>German Munich Malt</NAME>
+                <VERSION>1</VERSION>
+                <YIELD>81.000000</YIELD>
+                <COLOR>5.500000</COLOR>
+                <AMOUNT>2.268347</AMOUNT>
+                <NOTES>In Mash/Steeped</NOTES>
+                <TYPE>Grain</TYPE>
+            </FERMENTABLE>
+        </FERMENTABLES>
+        <HOPS>
+            <HOP>
+                <NAME>German Saphir</NAME>
+                <VERSION>1</VERSION>
+                <ALPHA>2.800000</ALPHA>
+                <AMOUNT>0.166269</AMOUNT>
+                <NOTES>First Wort Hopped</NOTES>
+                <USE>First Wort</USE>
+                <TIME>90</TIME>
+                <FORM>Leaf</FORM>
+            </HOP>
+            <HOP>
+                <NAME>German Saphir</NAME>
+                <VERSION>1</VERSION>
+                <ALPHA>2.800000</ALPHA>
+                <AMOUNT>0.166269</AMOUNT>
+                <NOTES>30 Min From End</NOTES>
+                <USE>Boil</USE>
+                <TIME>30</TIME>
+                <FORM>Leaf</FORM>
+            </HOP>
+            <HOP>
+                <NAME>German Saphir</NAME>
+                <VERSION>1</VERSION>
+                <ALPHA>2.800000</ALPHA>
+                <AMOUNT>0.036949</AMOUNT>
+                <NOTES>In Fermenter</NOTES>
+                <USE>Aroma</USE>
+                <TIME>0</TIME>
+                <FORM>Leaf</FORM>
+            </HOP>
+        </HOPS>
+        <YEASTS>
+            <YEAST>
+                <NAME>White Labs WLP099-Super High Gravity Ale</NAME>
+                <VERSION>1</VERSION>
+                <ATTENUATION>76.500000</ATTENUATION>
+                <FORM>Liquid</FORM>
+                <TYPE>Ale</TYPE>
+                <AMOUNT>0.035000</AMOUNT>
+                <AMOUNT_IS_WEIGHT>FALSE</AMOUNT_IS_WEIGHT>
+            </YEAST>
+        </YEASTS>
+        <MISCS></MISCS>
+        <STYLE>
+            <CATEGORY>India Pale Ale(IPA)</CATEGORY>
+            <NAME>Imperial IPA</NAME>
+            <VERSION>1</VERSION>
+            <TYPE>Ale</TYPE>
+            <CATEGORY_NUMBER>14</CATEGORY_NUMBER>
+            <STYLE_LETTER>C</STYLE_LETTER>
+            <OG_MIN>1.070</OG_MIN>
+            <OG_MAX>1.090</OG_MAX>
+            <IBU_MIN>60</IBU_MIN>
+            <IBU_MAX>120</IBU_MAX>
+            <COLOR_MIN>8</COLOR_MIN>
+            <COLOR_MAX>15</COLOR_MAX>
+            <FG_MIN>1.018</FG_MIN>
+            <FG_MAX>1.023</FG_MAX>
+        </STYLE>
+        <WATERS>
+            <WATER>
+                <NAME>The brewer's water</NAME>
+                <VERSION>1</VERSION>
+                <AMOUNT>33.561157</AMOUNT>
+                <SULFATE>22.000000</SULFATE>
+                <CALCIUM>22.200001</CALCIUM>
+                <MAGNESIUM>7.300000</MAGNESIUM>
+                <CHLORIDE>18.299999</CHLORIDE>
+                <SODIUM>14.300000</SODIUM>
+                <BICARBONATE>0.000000</BICARBONATE>
+            </WATER>
+        </WATERS>
+        <MASH>
+            <NAME>Double Decoction long MaltoseRast</NAME>
+            <VERSION>1</VERSION>
+            <GRAIN_TEMP>20</GRAIN_TEMP>
+            <MASH_STEPS>
+                <MASH_STEP>
+                    <NAME>Rest at</NAME>
+                    <VERSION>1</VERSION>
+                    <TYPE>Infusion</TYPE>
+                    <INFUSE_AMOUNT>0.0</INFUSE_AMOUNT>
+                    <STEP_TEMP>39.000000</STEP_TEMP>
+                    <STEP_TIME>30.000000</STEP_TIME>
+                    <RAMP_TIME>0</RAMP_TIME>
+                </MASH_STEP>
+                <MASH_STEP>
+                    <NAME>Pull decoction, boil, add back raising mash to</NAME>
+                    <VERSION>1</VERSION>
+                    <INFUSE_AMOUNT>3.343619</INFUSE_AMOUNT>
+                    <TYPE>Decoction</TYPE>
+                    <STEP_TEMP>50.000000</STEP_TEMP>
+                    <STEP_TIME>45.000000</STEP_TIME>
+                    <RAMP_TIME>0</RAMP_TIME>
+                </MASH_STEP>
+                <MASH_STEP>
+                    <NAME>Rest at</NAME>
+                    <VERSION>1</VERSION>
+                    <TYPE>Infusion</TYPE>
+                    <INFUSE_AMOUNT>0.0</INFUSE_AMOUNT>
+                    <STEP_TEMP>50.000000</STEP_TEMP>
+                    <STEP_TIME>30.000000</STEP_TIME>
+                    <RAMP_TIME>0</RAMP_TIME>
+                </MASH_STEP>
+                <MASH_STEP>
+                    <NAME>Pull decoction, boil, add back raising mash to</NAME>
+                    <VERSION>1</VERSION>
+                    <INFUSE_AMOUNT>6.565651</INFUSE_AMOUNT>
+                    <TYPE>Decoction</TYPE>
+                    <STEP_TEMP>65.000000</STEP_TEMP>
+                    <STEP_TIME>30.000000</STEP_TIME>
+                    <RAMP_TIME>0</RAMP_TIME>
+                </MASH_STEP>
+                <MASH_STEP>
+                    <NAME>Rest at</NAME>
+                    <VERSION>1</VERSION>
+                    <TYPE>Infusion</TYPE>
+                    <INFUSE_AMOUNT>0.0</INFUSE_AMOUNT>
+                    <STEP_TEMP>65.000000</STEP_TEMP>
+                    <STEP_TIME>60.000000</STEP_TIME>
+                    <RAMP_TIME>0</RAMP_TIME>
+                </MASH_STEP>
+                <MASH_STEP>
+                    <NAME>Raise by infusion to</NAME>
+                    <VERSION>1</VERSION>
+                    <TYPE>Infusion</TYPE>
+                    <INFUSE_AMOUNT>12.084350</INFUSE_AMOUNT>
+                    <STEP_TEMP>74.000000</STEP_TEMP>
+                    <RAMP_TIME>10.000000</RAMP_TIME>
+                    <STEP_TIME>0</STEP_TIME>
+                </MASH_STEP>
+            </MASH_STEPS>
+        </MASH>
+        <NAME>Star of India</NAME>
+        <VERSION>1</VERSION>
+        <TYPE>All Grain</TYPE>
+        <BREWER>Andreas Heigl</BREWER>
+        <BATCH_SIZE>20.000000</BATCH_SIZE>
+        <BOIL_SIZE>26.000000</BOIL_SIZE>
+        <BOIL_TIME>90</BOIL_TIME>
+        <EFFICIENCY>75</EFFICIENCY>
+        <NOTES></NOTES>
+        <PRIMARY_TEMP>18.0</PRIMARY_TEMP>
+    </RECIPE>
+</RECIPES>
